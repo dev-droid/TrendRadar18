@@ -94,8 +94,8 @@ notification:
     dingtalk_url: "" # 钉钉机器人的 webhook URL（多账号用 ; 分隔）
     wework_url: "" # 企业微信机器人的 webhook URL（多账号用 ; 分隔）
     wework_msg_type: "markdown" # 企业微信消息类型：markdown(群机器人) 或 text(个人微信应用)
-    telegram_bot_token: "8215054092:AAGYR90-7yKf_mx1AnTK6zGVEikOADJx4T4" # Telegram Bot Token（多账号用 ; 分隔，需与 chat_id 数量一致）
-    telegram_chat_id: "-1003452399741" # Telegram Chat ID（多账号用 ; 分隔，需与 bot_token 数量一致）
+    telegram_bot_token: "" # Telegram Bot Token（多账号用 ; 分隔，需与 chat_id 数量一致）
+    telegram_chat_id: "" # Telegram Chat ID（多账号用 ; 分隔，需与 bot_token 数量一致）
     email_from: "" # 发件人邮箱地址
     email_password: "" # 发件人邮箱密码或授权码
     email_to: "" # 收件人邮箱地址，多个收件人用逗号分隔
@@ -104,7 +104,7 @@ notification:
     ntfy_server_url: "https://ntfy.sh" # ntfy服务器地址，默认使用公共服务，可改为自托管地址
     ntfy_topic: "" # ntfy主题名称（多账号用 ; 分隔）
     ntfy_token: "" # ntfy访问令牌（可选，用于私有主题，多账号用 ; 分隔）
-    bark_url: "https://bark.999386.xyz/c027f27f644f906eb6df94352781206d" # Bark推送URL（多账号用 ; 分隔，格式：https://api.day.app/your_device_key 或自建服务器地址）
+    bark_url: "" # Bark推送URL（多账号用 ; 分隔，格式：https://api.day.app/your_device_key 或自建服务器地址）
     slack_webhook_url: "" # Slack Incoming Webhook URL（多账号用 ; 分隔，格式：https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX）
 
 # 用于让关注度更高的新闻在更前面显示，即用算法重新组合不同平台的热搜排序形成你侧重的热搜，合起来是 1 就行
